@@ -2190,7 +2190,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #e44c65;
+			background: #D667CD;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -3378,8 +3378,12 @@ input, select, textarea {
 	}
 
 	#header {
-		background: #00B9FF;
-		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+		background: #74ebd5;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+		/* background: #00B9FF; */
 		cursor: default;
 		height: 3.5em;
 		left: 0;
@@ -3475,8 +3479,12 @@ input, select, textarea {
 		}
 
 		#banner:after {
+			background: #74ebd5;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 			 background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			 background-image: white url("images/overlay.png");;
+			 /* background-image: white url("images/overlay.png");; */
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			content: '';
