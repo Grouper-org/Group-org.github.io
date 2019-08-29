@@ -2190,7 +2190,11 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #D667CD;
+			background: #B24592;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			/* background: #D667CD; */
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2474,7 +2478,11 @@ input, select, textarea {
 			}
 
 		.icon.major {
-			background: #272833;
+			background: #B24592;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			/* background: #272833; */
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -3205,7 +3213,11 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #D667CD;
+			background: #B24592;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			/* background: #D667CD; */
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
