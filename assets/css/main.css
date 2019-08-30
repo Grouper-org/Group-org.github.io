@@ -3765,6 +3765,10 @@ input, select, textarea {
 				padding: 2em 0;
 			}
 
+			.center-row {
+				width: 50%;
+				margin: 0 auto;
+			}
 	}
 
 /* Small */
@@ -4057,6 +4061,10 @@ input, select, textarea {
 				padding: 3.25em 1.5em;
 			}
 
+			.center-row {
+				width: 50%;
+				margin: 0 auto;
+			}
 	}
 
 /* XSmall */
