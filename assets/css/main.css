@@ -4112,6 +4112,12 @@ input, select, textarea {
 				padding: 3em 1.5625em 5.25em 1.5625em;
 			}
 
+			.center-row {
+				width: 100%;
+				margin: auto;
+			}
+
+
 		/* Footer */
 
 			#footer {
@@ -4128,5 +4134,4 @@ input, select, textarea {
 						margin: 0;
 						padding: 0;
 					}
-
 	}
