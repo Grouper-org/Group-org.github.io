@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import url('https://fonts.googleapis.com/css?family=Lato:900|Roboto:100,100i,300,300i&display=swap');
+
 
 /*
 	Landed by HTML5 UP
@@ -233,6 +234,17 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+	.inline_logo{
+		font-family: "Avenir LT Std 65 Medium", "Avenir", "Lato", Helvetica, sans-serif;
+		font-weight: 900;
+		color: rgba(0, 185, 255);
+		font-size: 1.1em;
+	}
+
+	.inline_logo_inner{
+		color: rgba(214, 103, 205);
 	}
 
 /* Loader */
