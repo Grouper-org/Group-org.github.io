@@ -246,4 +246,26 @@
 		$banner
 			._parallax();
 
+		function validateEmail(email) {
+		  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		  return re.test(email);
+		}
+
+		$('#submit-button').click(function(e) {
+			e.preventDefault();
+			const email = $('#email').val();
+			$('#feedback').remove();
+			if (validateEmail(email)) {
+				$('#email').val('');
+				$('#interest-form').append("<div id='feedback' style='color: white; padding-top: 5px'> \
+					Welcome aboard! :-) \
+					</div>"
+				)
+			} else {
+				$('#interest-form').append("<div id='feedback' style='color: white; padding-top: 5px'> \
+						That is an invalid email address. :-( \
+					</div>"
+				)
+			}
+		});
 })(jQuery);
